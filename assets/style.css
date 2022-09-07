@@ -3,13 +3,14 @@
     margin: 0;
     padding:0;
 }
+/*region header */
 header{
     background-color: orangered;
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 1rem ;
+    margin-bottom: 1.5rem;
 }
 .categories{
     color: white;
@@ -24,4 +25,73 @@ header{
 
 .add-to-cart{
     margin-top: 0.5rem;
+}
+
+/*end region header*/
+
+/*region main*/
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+    text-align: center;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+img{
+    width: 450px;
+    
+}
+.description{
+    text-align: left;
+    margin-left: 2rem;
+}
+.marca{
+    font-size: 0.75rem;
+}
+.price{
+    color: red;
+}
+.price-cancel{
+    text-decoration: line-through;
+}
+.red{
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 40px;
+    left: 9%;
+    bottom: 20%;
+    padding:0.25rem;
+}
+.green{
+    position: absolute;
+    background-color: green;
+    color: white;
+    height: 25px;
+    bottom: 20%;
+    left:18%;
+    padding:0.25rem;
+}
+.hearts{
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    left: 87%;
+    bottom: 90%;
+    padding-top: 0.25rem;
+    font-size: 1.5rem;
 }
