@@ -99,6 +99,10 @@ img{
     bottom: 90%;
     padding-top: 0.25rem;
     font-size: 1.5rem;
+    
+}
+.hearts:hover{
+    color: red;
 }
 
 /*end region main*/
